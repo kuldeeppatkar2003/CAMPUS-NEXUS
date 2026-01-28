@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Tool Layout</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="hero-section">
+        <div class="container">
+            <!-- Sidebar with Logo and Navigation -->
+            <aside class="sidebar">
+                <div class="logo">
+                  <!-- Your Logo here -->
+                  <img src="img/Infinity_logot.png" alt="Logo" style="max-width: 100px;">
+                </div>
+                <nav class="navigation">
+                  <ul >
+                    <li><a  href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a class="active" href="Equippment.html"><i class="fa fa-shopping-cart"></i> Euippments</a></li>
+                    <li><a href="blog.html"><i class="fab fa-blogger-b"></i> Blog</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                </ul>
+            </nav>
+
+                <div class="profile-section">
+                  <img src="img/profile_image.jpg" alt="User Avatar" class="profile-avatar">
+                  <div class="profile-details">
+                      <p class="profile-name">shaikh anas</p>
+                      <p class="profile-status">studen</p>
+                  </div>
+                  <a href="#" class="profile-button">View Profile</a>
+                  </div>
+          </aside>
+      
+            <!-- Main Content Area -->
+            <div class="product-card">
+              <div class="product-visual">
+                <img id="main-image" src="img/T1.jpeg" alt="Men's Fashion T Shirt">
+                <div class="thumbnail-container">
+                  <img src="img/T1.jpeg" alt="Thumbnail 1" onclick="changeImage(this)">
+                  <img src="img/T1-2.jpg" alt="Thumbnail 1" onclick="changeImage(this)">
+                  <img src="img/T1-6-1 (1).jpeg" alt="Thumbnail 2" onclick="changeImage(this)">
+                  <img src="img/T1-4.jpg" alt="Thumbnail 3" onclick="changeImage(this)">
+                  <img src="img/T1-main.jpg" alt="Thumbnail 4" onclick="changeImage(this)">
+            </div>
+              </div>
+  <div class="product-info">
+      <div class="product-details">
+          <h2>Mini Drafter for Engineering Drawing</h2>
+          <div class="price">₹139.00</div>
+          <select>
+              <option value="">Select Size</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+          </select>
+          <div class="quantity-box">
+              <input type="number" value="1" min="1">
+              <button>Add To Cart</button>
+          </div>
+      </div>
+    <div class="description">
+      This essential engineering tool boasts a durable and reliable construction, designed to be your trusted companion through countless hours of technical drawing. Crafted with precision and built for accuracy, this mini drafter provides unmatched functionality in a compact, portable form. Featuring smooth, fluid movements, the mini drafter ensures consistently precise lines, angles, and scaled drawings. The included scales provide versatility for various drawing tasks. Its robust clamping mechanism secures your drawings firmly, allowing for unhindered operation. Designed with the B.Tech student in mind,
+       this is the ultimate instrument for creating detailed, accurate designs.
+    </div>
+  </div>
+  <div class="subscription-block">
+
+  </div>
+
+</div>
+    
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+ 
+
+      <section id ="newsletter">
+        <div class="newstext ">
+          <h4>Sign up For Newsletters</h4>
+          <p>Get E-mail updates about our latest shop and <span>Special offers.</span></p>
+        </div>
+        <div class ="form">
+          <input type="text" placeholder="Your email address">
+          <button>Sign Up</button>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-content">
+          <div class="footer-section contact-info">
+            <img src="img/Infinity_logot.png" alt="Cara Logo" class="logo">  <!-- Replace cara-logo.png -->
+            <p><strong>Contact</strong></p>
+            <p><strong>Address:</strong> P.O, Tilwara Ghat, near Bargi Hills, Bargi Hills, Jabalpur, Madhya Pradesh 482003</p>
+            <p><Strong>Phone:</Strong> +01 2222 365 /(+91) 9407006033</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+    
+              <p><strong>Follow Us</strong></p>
+               <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+          </div>
+          <div class="footer-section">
+            <p><strong>About</strong></p>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <p><strong>My Account</strong></p>
+             <ul>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">View Cart</a></li>
+                <li><a href="#">My Wishlist</a></li>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <p><strong>Install App</strong></p>
+            <p>From App Store or Google Play</p>
+             <div class="app-links">
+                <a href="#"> <img src="img/storeicon.png" alt="App Store"></a> <!-- Replace app-store.png -->
+              </div>
+             <p>Secured Payment Gateways</p>
+             <div class="payment-gateways">
+                <img src="img/images.png" alt="Visa"> <!-- Replace visa.png -->
+                 <!-- Replace american-express.png -->
+              </div>
+          </div>
+        </div>
+        
+      </footer>
+     <script>
+      var MainImg=document.getElementById("main-image");
+     </script> 
+</body>
+</html>
